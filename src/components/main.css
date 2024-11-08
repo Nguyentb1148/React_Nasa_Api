@@ -1,0 +1,65 @@
+/* Container for the image */
+.imgContainer {
+    width: 60%;              /* Make image container 80% of the page */
+    margin: 0 auto;          /* Center the container horizontally */
+    display: flex;           /* Use flexbox to align the image */
+    justify-content: center; /* Center image inside the container */
+}
+
+/* Style for the image */
+.bgImage {
+    width: 100%;             /* Make the image fill its container's width */
+    height: auto;            /* Maintain aspect ratio */
+    border-radius: 10px;     /* Optional: Add border radius for smooth corners */
+}
+
+/* Loading state */
+.loadingState {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;           /* Fill the entire viewport */
+}
+/* Style for the container that holds the title and explanation */
+div > div {
+    text-align: center;         /* Center-align text */
+    padding: 10px 0;            /* Add padding around the text */
+}
+
+/* Style for the title (h2) */
+h2 {
+    font-size: 2rem;            /* Set font size for title */
+    font-weight: bold;          /* Make title bold */
+    color: #333;                /* Dark color for the title */
+    margin: 10px 0;             /* Add margin above and below the title */
+}
+
+/* Style for the paragraph (explanation) */
+p {
+    font-size: 1rem;            /* Set font size for explanation */
+    color: #666;                /* Lighter color for the paragraph */
+    line-height: 1.6;           /* Increase line-height for better readability */
+    margin: 0 20px;             /* Add horizontal padding to the paragraph */
+    text-align: justify;        /* Justify the text for a cleaner look */
+    max-width: 80%;             /* Limit width to 80% of container for better line length */
+    margin-left: auto;          /* Center text horizontally */
+    margin-right: auto;         /* Center text horizontally */
+}
+/* Optional styling for the date picker */
+input[type="date"] {
+    margin: 10px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;        /* Reduce font size for smaller screens */
+    }
+
+    p {
+        font-size: 0.9rem;        /* Reduce font size for smaller screens */
+        max-width: 95%;           /* Allow the paragraph to take more width */
+    }
+}
