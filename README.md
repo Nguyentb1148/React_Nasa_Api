@@ -2,6 +2,9 @@
 
 This project demonstrates how to interact with the NASA API (specifically the Astronomy Picture of the Day - APOD) using React. It showcases how to fetch data from an external API, manage the state with React hooks (`useState`, `useEffect`), and display it on a webpage. Additionally, it includes functionality to select and view NASA's APOD for any date.
 
+<img width="713" alt="Screenshot 2024-11-08 at 08 42 52" src="https://github.com/user-attachments/assets/97d20b4e-0903-4a8e-ae1a-ea86a189b2a1">
+
+
 ## Features:
 - Fetches and displays NASA's Astronomy Picture of the Day (APOD).
 - Allows the user to select a specific date to view the image and explanation for that day.
